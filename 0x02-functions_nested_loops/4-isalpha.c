@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
-*test_isalpha -> checks for alphabetical letters
-*@c: a character to be checked on
-*Return: returns o or 1 depending on condition
+*test_isalpha -> Test the _isalpha function
+*
+*@n: Number to pass to _isalpha function
 */
-void test_isalpha(int c)
+void test_isalpha(int n)
 {
-	return ((c >= 'a' && c <= 'z') || (c  >= 'A' && c <= 'Z'));
+	int r;
+
+	r = _isalpha(n);
+	_putchar(r + '0');
+	_putchar('\n');
 }
