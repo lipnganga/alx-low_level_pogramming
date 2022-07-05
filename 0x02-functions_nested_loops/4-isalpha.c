@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-*test_isalpha -> Test the _isalpha function
-*
-*@n: Number to pass to _isalpha function
+* _isalpha -> Test the _isalpha function
+*Return: return 0 or 1 depending on condition
+*@c: Number to pass to _isalpha function
 */
-void test_isalpha(int n)
+int _isalpha(int c);
 {
 	int r;
 
