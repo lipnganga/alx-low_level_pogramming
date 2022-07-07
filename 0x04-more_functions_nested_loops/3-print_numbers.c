@@ -1,16 +1,14 @@
 #include "main.h"
 
 /**
- * print_numbers - print 0-9 and end with new line.
- *
- * Return: 0-9and new line after
- */
+* print_numbers -> print numbers
+*/
+
 void print_numbers(void)
 {
-int i;
-for (i = 0; i < 10; i++)
-{
-_putchar(i + '0');
-}
-_putchar('\n');
+	int x;
+
+	for (x = 0; x < 10; x++)
+		_putchar(x + '0');
+	_putchar('\n');
 }
