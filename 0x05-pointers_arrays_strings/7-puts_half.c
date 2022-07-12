@@ -2,19 +2,19 @@
 #include <string.h>
 
 /**
-*puts_half -> Half function
-*@str: str param
+* puts_half -> puts half
+* @str: string param
 */
 void puts_half(char *str)
 {
-	int i, j, z;
+	int x, y, i;
 
-	i = strlen(str);
-	if  (i % 2 == 1)
-		j = i / 2 + 1;
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
 	else
-		j = i / 2;
-	for (z = j; z < i; z++)
-		_putchar(str[z]);
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
