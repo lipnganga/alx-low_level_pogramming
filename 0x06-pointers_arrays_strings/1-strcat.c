@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-*_strncat - Function for stracat
+*_strncat - Function for strncat
 * @dest: - programs first param
 * @src: - Second param
 * @n: third param
