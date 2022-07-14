@@ -3,7 +3,7 @@
 /**
 * _strcat - Function for stracat
 * @dest: - programs first param
-* @src: - Second param 
+* @src: - Second param
 * Return: return a string
 */
 char *_strcat(char *dest, char *src)
