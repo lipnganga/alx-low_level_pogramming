@@ -5,22 +5,18 @@
  *print_diagsums - print sum of two diagonals os square matrix
  *@a: the name of array
  *@size: size of array
- *Return: 0
+ *Return: nothing
  */
 
 void print_diagsums(int *a, int size)
 {
-	int i, j, p, l = 0, r = 0;
+	int b, sum1 = 0, sum2 = 0;
 
-	for (i = 0; i < size; i++)
+	for (b = 0; b < size; b++)
 	{
-		p = (i * size) + i;
-		l += *(a + p);
+		sum1 += a[(size + 1) * b];
+		sum2 += a[(size - 1) * (b + 1)];
 	}
-	for (j = 0; j < size; j++)
-	{
-		p = (j * size) + (size - 1 - j);
-		r += *(a + p);
-	}
-	printf("%i, %i\n", l, r);
+
+	printf("%d, %d\n", sum1, sum2);
 }
