@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
 		return (sqrt(n, 1));
 }
 
-int _sqrt(int a, int b);
+int _sqrt(int, int);
 /**
  *sqrt - finds square root of two numbers
  *
@@ -31,6 +31,6 @@ int _sqrt(int a, int b)
 	else if (b * b == a)
 		return (b);
 	else
-		return (sqrt(a, b + 1));
+		return (_sqrt(a, b + 1));
 	return (1);
 }
