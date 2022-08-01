@@ -8,14 +8,12 @@
  * @owner: person who is the master of the dog
  */
 
-struct dog
+typedef struct dog
 {
 		char *name;
 		float age;
 		char *owner;
-} ;
-/** typedef dog_t - defines new name for struct dog
- */
-typedef struct dog dog_t;
+} dog_t ;
+
 
 #endif
