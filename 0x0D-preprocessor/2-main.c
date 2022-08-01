@@ -1,4 +1,4 @@
-#include <stdo.h>
+#include <stdio.h>
 
 /**
  * main - prints name of the file it was compiled from
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf("%s\n", BASE_FILE_);
+	printf("%s\n", _FILE_);
 	return (0);
 }
