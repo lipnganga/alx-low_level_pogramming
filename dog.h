@@ -13,4 +13,11 @@ struct dog
 		char *name;
 		float age;
 		char *owner;
-}
+};
+/**
+ * typedef dog_t - defines a new name for struct dog
+ */
+typedef struct dog dog_t;
+
+
+
