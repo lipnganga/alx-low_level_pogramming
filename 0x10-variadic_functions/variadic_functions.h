@@ -3,7 +3,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-/*
+/**
  * struct check - paramenters to check against
  * @c: type
  * @f: the function to send it to
