@@ -1,12 +1,11 @@
 #include "function_pointers.h"
-#include <stdio.h>
 
 /**
  * array_iterator - used to execute function given as a param
  *@array: array being passed
  *@size: size of array
  *@action: pointer to function
- *Return: Nothing
+ *Return: Void
  *
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
@@ -19,5 +18,5 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		{
 			action(array[i]);
 		}
-	}	
+	}
 }
