@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * _strlen -return the length of a string
+ * _strlen - return the length of a string
  * @s: the string whose length to return
- * return: length of the string
+ * Return: length of the string
  */
 
 int _strlen(const char *s)
@@ -20,9 +20,9 @@ int _strlen(const char *s)
 
 /**
  * add_node_end - add a new node at the end of list
- * @ghead: head of the list
+ * @head: head of the list
  * @str: string to add to list
- * Return: address of the new element, or NULL if failed 
+ * Return: address of the new element, or NULL if failed
  */
 
 
