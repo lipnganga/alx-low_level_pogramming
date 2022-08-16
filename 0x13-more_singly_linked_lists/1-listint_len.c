@@ -2,7 +2,7 @@
 
 /**
  * listint_len - Counts the numbers of elements in the list
- *@n: the list to check
+ *@h: the list to check
  *Return: number of elements in the list
  */
 
